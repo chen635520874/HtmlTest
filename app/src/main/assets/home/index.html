@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=0.4,minium-scale=0.3,maximum-scale=1.0,user-scalable=no">
+<title>江西省城乡建设培训中心</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/banner.css" rel="stylesheet" type="text/css">
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script>
+	$("#menuPage").click(function(e){
+		window.returnEval('this.OpenWebView("'+$(this).attr("data-url")+'","'+$(this).attr("data-title")+'")')
+	});
+	$("#menuPage1").click(function(e){
+		window.returnEval('this.OpenWebView("'+$(this).attr("data-url")+'","'+$(this).attr("data-title")+'")')
+	});
+	
+</script>
+</head>
+
+<body>
+<div class="header"></div>
+<div class="banner" id="container">
+	<div class="sections">
+		<div class="section" id="section0"></div>
+		<div class="section" id="section1"></div>
+		<div class="section" id="section2"></div>
+	</div>	
+</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/pageSwitch.js"></script>
+<script>
+	$("#container").PageSwitch({
+		direction:'horizontal',
+		easing:'ease-in',
+		duration:1000,
+		autoPlay:true,
+		loop:'false'
+	});
+</script>
+<div class="main_first">
+	<ul class="icon">
+		<li><a href=""><img src="images/badayuan.icon.png"><p>八大员</p></a></li>
+		<li><a href=""><img src="images/anguan1.icon.png"><p>安管人员<br>网络初次培训</p></a></li>
+		<li><a href=""><img src="images/anguan2.icon.png"><p>安管人员<br>生产知识培训</p></a></li>
+		<li><a href=""><img src="images/erjian1.icon.png"><p>注册建造师<br>网络教育选修</p></a></li>
+		<li><a href=""><img src="images/erjian2.icon.png"><p>注册建造师<br>网络教育必修</p></a></li>
+		<li><a href=""><img src="images/gongren.icon.png"><p>建筑工人<br>职业培训考核</p></a></li>
+		<li><a href=""><img src="images/jianjie.icon.png"><p>中心简介</p></a></li>
+		<li><a href=""><img src="images/more.icon.png"><p>更多</p></a></li>
+	</ul>
+	<ul class="notify">
+		<li>重要<em>告知</em></li>
+		<li>
+			<marquee behavior="scroll" scrollamount="9" onmouseover="this.stop();" onmouseout="this.start();" contenteditable="true"  direction="滚动方向"><em>重要声明：安全提醒</em>1、域名为“http://www.urdt.cn”和“江西省城乡建设培训中心”的网站为江西省城乡建设培训中心官方惟一指定运营网站，其他任何假借江西省城乡建设培训中心之名欺骗网友的行为都属于非法行为。2、江西省城乡建设培训中心没有其它任何镜像网站及类似网站，请广大网友注意认真识别，务必认准“江西省城乡建设培训中心”标志，并提高自我保护意识，谨防上当受骗。3、任何冒用江西省城乡建设培训中心的名义进行不当或者违法行为，江西省城乡建设培训中心将采取法律手段对该类网站的假冒仿效行为进行严厉打击，并将追究其法律责任。版权声明1、本网站所有文字、图片、页面的版式、和音视频资料，版权均属江西省城乡建设培训中心所有，任何媒体、网站或个人未经本网协议授权不得转载、链接、转贴或以其他方式复制发布、发表。2、本网站授权您使用的网络课程等内容，仅限您个人使用不得用于任何商业用途。3、转载或引用本网版权所有之内容须注明“转自（或引自）江西省城乡建设培训中心”字样，并标明本网网址“http://www.urdt.cn”和“江西省城乡建设培训中心”。4、对不遵守本声明或其他违法、恶意使用本网内容者，本网保留追究其法律责任的权利。</marquee>
+		</li>
+	</ul>
+</div>
+<div class="main_second">
+	<ul class="">
+		<li><a href=""><img src="images/gonggao.icon.png"><p>公示公告</p></a></li>
+		<li><a href=""><img src="images/wenjian.icon.png"><p>政策文件</p></a></li>
+		<li><a href=""><img src="images/xinxi.icon.png"><p>信息动态</p></a></li>
+		<li><a href=""><img src="images/tongzhi.icon.png"><p>通知</p></a></li>
+	</ul>
+</div>
+<div class="main_third">
+	<ul>
+		<li><a href=""><img src="images/weiji.icon.png" alt=""><p>统考违纪曝光台</p></a></li>
+		<li><a href=""><img src="images/heimingdan.icon.png" alt=""><p>黑名单</p></a></li>
+		<li><a href=""><img src="images/xinxinzixun.icon.png" alt=""><p>信息咨询交流平台</p></a></li>
+		<li><a href=""><img src="images/banshizhinan.icon.png" alt=""><p>办事指南</p></a></li>
+	</ul>
+</div>
+<div class="footer">
+	<ul>
+		<li class="ctrl"><a href="" class="home"></a>首页</li>
+		<li><a href="" class="search"></a>查询</li>
+		<li><a href="" class="contact"></a>联系</li>
+	</ul>
+</div>
+</body>
+</html>
